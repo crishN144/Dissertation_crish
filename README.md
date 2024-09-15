@@ -82,15 +82,6 @@ A similar analysis for beginner-level tasks is shown below:
 
 ---
 
-## Embedding Similarity and Statistical Reasoning
-
-Embedding similarity was crucial for assessing how well models understood statistical problems:
-
-![Embedding Similarity Scores](Images/embedding_similarity.png)  
-*Fig 7: Embedding similarity scores across models.*
-
----
-
 ### ROC and Precision-Recall Curves
 
 For classification tasks, **ROC** and **Precision-Recall** curves were used to measure performance:
