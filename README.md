@@ -1,7 +1,3 @@
-Here’s a more concise and readable version of the README file based on your dissertation, including images and captions where appropriate:
-
----
-
 # Evaluating Large Language Models (LLMs) on Statistical Problem Solving
 
 This repository contains datasets, evaluation results, fine-tuning notebooks, and statistical analysis tools used in the dissertation **"Evaluating the Performance of Large Language Models on Statistical Problem Solving"** by Crish Nagarkar, submitted to the University of Leeds.
@@ -58,7 +54,7 @@ Model performance was evaluated using both NLP metrics (BLEU scores, perplexity)
 
 The fine-tuning workflow employed LoRA and dropout to update the pre-trained weights efficiently. Below is a visual representation of the LoRA mechanism:
 
-![LoRA Workflow Diagram](Matplotlib_Chart.png)  
+![LoRA Workflow Diagram](Images/Matplotlib_Chart.png)  
 *Fig 1: Low-Rank Adaptation (LoRA) used for efficient fine-tuning.*
 
 ---
@@ -67,7 +63,7 @@ The fine-tuning workflow employed LoRA and dropout to update the pre-trained wei
 
 A cosine decay learning rate was implemented to ensure smooth training. The graph below illustrates how the learning rate decays over time:
 
-![Cosine Decay Learning Rate](learning_rate.png)  
+![Cosine Decay Learning Rate](Images/learning_rate.png)  
 *Fig 2: Cosine decay learning rate schedule used during training.*
 
 ---
@@ -76,10 +72,10 @@ A cosine decay learning rate was implemented to ensure smooth training. The grap
 
 Both training loss and perplexity decreased over time during the fine-tuning of LLaMA, as shown below:
 
-![Training Loss](training.png)  
+![Training Loss](Images/training.png)  
 *Fig 3: Training loss during fine-tuning.*
 
-![Perplexity](perplexity1.png)  
+![Perplexity](Images/perplexity1.png)  
 *Fig 4: Perplexity reduction over time.*
 
 ---
@@ -92,14 +88,14 @@ Various models were tested on statistical reasoning tasks, with performance visu
 
 The bubble chart below shows the performance of each model on advanced statistical tasks. The x-axis represents the BLEU score, while the y-axis shows the time taken, and bubble size indicates tokens processed.
 
-![Advanced Difficulty Bubble Chart](bubble_chart_difficulty_advanced.png)  
+![Advanced Difficulty Bubble Chart](Images/bubble_chart_difficulty_advanced.png)  
 *Fig 5: Model performance at advanced difficulty level.*
 
 ### Beginner-Level Performance
 
 A similar analysis for beginner-level tasks is shown below:
 
-![Beginner Difficulty Bubble Chart](bubble_chart_difficulty_beginner.png)  
+![Beginner Difficulty Bubble Chart](Images/bubble_chart_difficulty_beginner.png)  
 *Fig 6: Model performance at beginner difficulty level.*
 
 ---
@@ -108,7 +104,7 @@ A similar analysis for beginner-level tasks is shown below:
 
 Embedding similarity was crucial for assessing how well models understood statistical problems:
 
-![Embedding Similarity Scores](embedding_similarity.png)  
+![Embedding Similarity Scores](Images/embedding_similarity.png)  
 *Fig 7: Embedding similarity scores across models.*
 
 ---
@@ -117,7 +113,7 @@ Embedding similarity was crucial for assessing how well models understood statis
 
 For classification tasks, **ROC** and **Precision-Recall** curves were used to measure performance:
 
-![ROC and Precision-Recall Curves](roc.png)  
+![ROC and Precision-Recall Curves](Images/roc.png)  
 *Fig 8: ROC and precision-recall curves for classification tasks.*
 
 ---
@@ -126,8 +122,35 @@ For classification tasks, **ROC** and **Precision-Recall** curves were used to m
 
 The models were also compared using various metrics, including BLEU score, embedding similarity, and time taken for task completion:
 
-![Multi-Metric Comparison](multi_metric.png)  
+![Multi-Metric Comparison](Images/multi_metric.png)  
 *Fig 9: Multi-metric comparison across models.*
+
+---
+
+## Spider Chart for Model Strengths
+
+A spider chart helps visualize model strengths across various metrics, such as BLEU score, time taken, and embedding similarity:
+
+![Spider Chart](Images/spider.png)  
+*Fig 10: Spider chart comparing model performance across multiple metrics.*
+
+---
+
+## 3D Surface Plot of Model Performance
+
+This 3D surface plot illustrates how the models performed across different levels of difficulty and BLEU scores:
+
+![3D Surface Plot](Images/3d_surface_plot_for_model_performance.png)  
+*Fig 11: 3D surface plot of model performance across difficulty levels and BLEU scores.*
+
+---
+
+## Validation and Generalization Performance
+
+The validation loss illustrates how well models generalize to unseen data:
+
+![Validation Loss](Images/validation.png)  
+*Fig 12: Validation loss over time.*
 
 ---
 
@@ -170,4 +193,4 @@ This repository is licensed under the MIT License. See [LICENSE](LICENSE) for de
 
 ---
 
-This README balances detail with clarity, offering a streamlined view of the repository contents while incorporating images and context from your dissertation.
+This README file now uses the updated image filenames while ensuring a streamlined and organized presentation of the project. Let me know if any adjustments are needed!
