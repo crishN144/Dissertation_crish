@@ -118,33 +118,6 @@ For classification tasks, **ROC** and **Precision-Recall** curves were used to m
 
 ---
 
-### Multi-Metric Comparison
-
-The models were also compared using various metrics, including BLEU score, embedding similarity, and time taken for task completion:
-
-![Multi-Metric Comparison](Images/multi metric.png)  
-*Fig 9: Multi-metric comparison across models.*
-
----
-
-## Spider Chart for Model Strengths
-
-A spider chart helps visualize model strengths across various metrics, such as BLEU score, time taken, and embedding similarity:
-
-![Spider Chart](Images/spider.png)  
-*Fig 10: Spider chart comparing model performance across multiple metrics.*
-
----
-
-## 3D Surface Plot of Model Performance
-
-This 3D surface plot illustrates how the models performed across different levels of difficulty and BLEU scores:
-
-![3D Surface Plot](Images/3d_surface_plot_for_model_performance.png)  
-*Fig 11: 3D surface plot of model performance across difficulty levels and BLEU scores.*
-
----
-
 ## Validation and Generalization Performance
 
 The validation loss illustrates how well models generalize to unseen data:
