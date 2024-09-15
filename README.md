@@ -54,7 +54,7 @@ Model performance was evaluated using both NLP metrics (BLEU scores, perplexity)
 
 The fine-tuning workflow employed LoRA and dropout to update the pre-trained weights efficiently. Below is a visual representation of the LoRA mechanism:
 
-![LoRA Workflow Diagram](Images/Matplotlib_Chart.png)  
+![LoRA Workflow Diagram](Matplotlib Chart .png)  
 *Fig 1: Low-Rank Adaptation (LoRA) used for efficient fine-tuning.*
 
 ---
