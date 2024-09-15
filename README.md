@@ -122,7 +122,7 @@ For classification tasks, **ROC** and **Precision-Recall** curves were used to m
 
 The models were also compared using various metrics, including BLEU score, embedding similarity, and time taken for task completion:
 
-![Multi-Metric Comparison](Images/multi_metric.png)  
+![Multi-Metric Comparison](Images/multi metric.png)  
 *Fig 9: Multi-metric comparison across models.*
 
 ---
