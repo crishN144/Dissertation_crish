@@ -184,13 +184,3 @@ The validation loss illustrates how well models generalize to unseen data:
 ## Future Work
 
 Further fine-tuning with **prompt engineering** and **multi-task learning** can enhance model performance on complex statistical tasks. Expanding the dataset to include more diverse problems will also help in assessing LLM capabilities in statistical reasoning.
-
----
-
-## License
-
-This repository is licensed under the MIT License. See [LICENSE](LICENSE) for details.
-
----
-
-This README file now uses the updated image filenames while ensuring a streamlined and organized presentation of the project. Let me know if any adjustments are needed!
