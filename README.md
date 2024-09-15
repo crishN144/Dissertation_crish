@@ -50,24 +50,6 @@ Model performance was evaluated using both NLP metrics (BLEU scores, perplexity)
 
 ---
 
-### Fine-Tuning Workflow
-
-The fine-tuning workflow employed LoRA and dropout to update the pre-trained weights efficiently. Below is a visual representation of the LoRA mechanism:
-
-![LoRA Workflow Diagram](Matplotlib Chart .png)  
-*Fig 1: Low-Rank Adaptation (LoRA) used for efficient fine-tuning.*
-
----
-
-### Learning Rate Schedule
-
-A cosine decay learning rate was implemented to ensure smooth training. The graph below illustrates how the learning rate decays over time:
-
-![Cosine Decay Learning Rate](Images/learning_rate.png)  
-*Fig 2: Cosine decay learning rate schedule used during training.*
-
----
-
 ### Loss and Perplexity Over Time
 
 Both training loss and perplexity decreased over time during the fine-tuning of LLaMA, as shown below:
